@@ -1,0 +1,12 @@
+.krejt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20em;
+    width: 20em;
+    background-color: red;
+}
+body{
+    top: 50em;
+    left: 50em;
+}
