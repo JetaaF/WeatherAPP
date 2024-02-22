@@ -1,12 +1,26 @@
-.krejt{
+*{
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+}
+.krejt {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 20em;
     width: 20em;
-    background-color: red;
+    background-color: rgba(185, 185, 185, 0.527);
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 20%;
 }
-body{
-    top: 50em;
-    left: 50em;
+
+body {
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
